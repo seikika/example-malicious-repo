@@ -1,0 +1,9 @@
+apiVersion: seikika.com/v1alpha1
+portal: {name: example-malicious-repo, owner: "group:maintainers", seikika: "0.2"}
+scorecards:
+  - name: repo-hygiene
+    title: Untrusted replacement standard
+    kind: Repository
+    levels: [silver]
+    rules:
+      - {name: has-readme, level: silver, check: "true"}

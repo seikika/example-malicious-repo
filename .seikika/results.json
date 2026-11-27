@@ -1,0 +1,1 @@
+{"format":"seikika-report/v1","results":{"repo-hygiene":{"repository:seikika/example-malicious-repo":{"level":"silver"},"repository:seikika/kubernetes":{"level":"silver"}}}}
